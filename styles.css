@@ -1,0 +1,46 @@
+:root {
+  color: #1c2530;
+  background: #f5f7f4;
+  font-family: "Malgun Gothic", "Apple SD Gothic Neo", system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1120px; margin: 0 auto; padding: 52px 28px 30px; }
+.hero { border-bottom: 1px solid #cdd5cf; padding-bottom: 38px; }
+.eyebrow { color: #55705f; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; margin: 0 0 12px; }
+h1, h2 { letter-spacing: 0; margin: 0; }
+h1 { font-size: 48px; line-height: 1.17; font-weight: 750; }
+h2 { font-size: 27px; }
+.summary { color: #50605a; font-size: 17px; margin: 19px 0; }
+.meta-row { align-items: center; color: #64716a; display: flex; flex-wrap: wrap; font-size: 14px; gap: 10px; }
+.dot { background: #8ba395; border-radius: 50%; height: 5px; width: 5px; }
+.results, .criteria { padding: 38px 0; }
+.section-heading { align-items: end; display: flex; justify-content: space-between; margin-bottom: 23px; }
+.count { color: #9b3d35; font-size: 19px; font-weight: 700; }
+.table-wrap { border: 1px solid #d6ddd8; overflow-x: auto; }
+table { border-collapse: collapse; min-width: 850px; width: 100%; }
+th { background: #e7eee8; color: #53645a; font-size: 12px; font-weight: 700; text-align: right; }
+td { border-top: 1px solid #e1e6e2; font-size: 14px; text-align: right; }
+th, td { padding: 15px 14px; white-space: nowrap; }
+th:first-child, td:first-child, th:nth-child(2), td:nth-child(2) { text-align: left; }
+td strong, td small { display: block; }
+td small { color: #77847d; font-size: 12px; margin-top: 4px; }
+.market { border-radius: 3px; font-size: 11px; font-weight: 700; padding: 4px 6px; }
+.kospi { background: #e2eaf0; color: #31546d; }
+.kosdaq { background: #e8ebe0; color: #5c7042; }
+.gap { color: #a63d32; font-weight: 700; }
+.empty-state { background: #eaf0eb; padding: 28px; }
+.empty-state strong { font-size: 18px; }
+.empty-state p { color: #5f6d65; margin: 8px 0 0; }
+.criteria { border-top: 1px solid #cdd5cf; }
+ol { color: #435049; line-height: 1.8; margin: 16px 0 0; padding-left: 25px; }
+footer { border-top: 1px solid #cdd5cf; color: #69766f; font-size: 13px; line-height: 1.7; padding-top: 22px; }
+footer p { margin: 0 0 8px; }
+a { color: #315f48; }
+@media (max-width: 640px) {
+  main { padding: 32px 16px 24px; }
+  h1 { font-size: 36px; }
+  h2 { font-size: 23px; }
+  .results, .criteria { padding: 30px 0; }
+}
