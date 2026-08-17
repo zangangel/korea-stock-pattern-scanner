@@ -1,10 +1,22 @@
 {
-  "as_of": "20260813",
+  "as_of": "20260814",
   "strategy": "상한가 이후 음봉-양봉-음봉",
   "criteria": [
     "상한가 당일 종가가 전일 종가 대비 29.5% 이상 상승",
     "이후 3거래일이 음봉, 양봉, 음봉 순서",
     "세 거래일 모두 상한가 당일 종가보다 높게 마감"
   ],
-  "matches": []
+  "matches": [
+    {
+      "ticker": "225190",
+      "name": "LK삼양",
+      "market": "KOSDAQ",
+      "limit_date": "20260811",
+      "signal_date": "20260814",
+      "limit_close": 1055,
+      "signal_close": 1152,
+      "gap_pct": 9.19,
+      "volume": 7040537
+    }
+  ]
 }
