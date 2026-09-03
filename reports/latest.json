@@ -1,10 +1,22 @@
 {
-  "as_of": "20260831",
+  "as_of": "20260901",
   "strategy": "상한가 이후 음봉-양봉-음봉",
   "criteria": [
     "상한가 당일 종가가 전일 종가 대비 29.5% 이상 상승",
     "이후 3거래일이 음봉, 양봉, 음봉 순서",
     "세 거래일 모두 상한가 당일 종가보다 높게 마감"
   ],
-  "matches": []
+  "matches": [
+    {
+      "ticker": "389680",
+      "name": "유디엠텍",
+      "market": "KOSDAQ",
+      "limit_date": "20260827",
+      "signal_date": "20260901",
+      "limit_close": 1757,
+      "signal_close": 1850,
+      "gap_pct": 5.29,
+      "volume": 109502
+    }
+  ]
 }
