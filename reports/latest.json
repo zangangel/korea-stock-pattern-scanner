@@ -1,5 +1,5 @@
 {
-  "as_of": "20260911",
+  "as_of": "20260914",
   "strategy": "상한가 이후 음봉-양봉-음봉",
   "criteria": [
     "상한가 당일 종가가 전일 종가 대비 29.5% 이상 상승",
@@ -8,15 +8,15 @@
   ],
   "matches": [
     {
-      "ticker": "046120",
-      "name": "오르비텍",
+      "ticker": "382900",
+      "name": "범한퓨얼셀",
       "market": "KOSDAQ",
-      "limit_date": "20260908",
-      "signal_date": "20260911",
-      "limit_close": 6050,
-      "signal_close": 6070,
-      "gap_pct": 0.33,
-      "volume": 1910223
+      "limit_date": "20260909",
+      "signal_date": "20260914",
+      "limit_close": 23350,
+      "signal_close": 25100,
+      "gap_pct": 7.49,
+      "volume": 523820
     }
   ]
 }
