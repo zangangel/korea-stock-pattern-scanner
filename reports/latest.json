@@ -1,44 +1,10 @@
 {
-  "as_of": "20261001",
+  "as_of": "20261002",
   "strategy": "상한가 이후 음봉-양봉-음봉",
   "criteria": [
     "상한가 당일 종가가 전일 종가 대비 29.5% 이상 상승",
     "이후 3거래일이 음봉, 양봉, 음봉 순서",
     "세 거래일 모두 상한가 당일 종가보다 높게 마감"
   ],
-  "matches": [
-    {
-      "ticker": "047920",
-      "name": "HLB제약",
-      "market": "KOSDAQ",
-      "limit_date": "20260928",
-      "signal_date": "20261001",
-      "limit_close": 9620,
-      "signal_close": 11150,
-      "gap_pct": 15.9,
-      "volume": 743106
-    },
-    {
-      "ticker": "067630",
-      "name": "HLB생명과학",
-      "market": "KOSDAQ",
-      "limit_date": "20260928",
-      "signal_date": "20261001",
-      "limit_close": 3405,
-      "signal_close": 3715,
-      "gap_pct": 9.1,
-      "volume": 916510
-    },
-    {
-      "ticker": "028300",
-      "name": "HLB",
-      "market": "KOSDAQ",
-      "limit_date": "20260928",
-      "signal_date": "20261001",
-      "limit_close": 39700,
-      "signal_close": 40550,
-      "gap_pct": 2.14,
-      "volume": 1182456
-    }
-  ]
+  "matches": []
 }
