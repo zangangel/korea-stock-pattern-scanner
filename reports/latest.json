@@ -1,10 +1,22 @@
 {
-  "as_of": "20261030",
+  "as_of": "20261102",
   "strategy": "상한가 이후 음봉-양봉-음봉",
   "criteria": [
     "상한가 당일 종가가 전일 종가 대비 29.5% 이상 상승",
     "이후 3거래일이 음봉, 양봉, 음봉 순서",
     "세 거래일 모두 상한가 당일 종가보다 높게 마감"
   ],
-  "matches": []
+  "matches": [
+    {
+      "ticker": "276730",
+      "name": "한울앤제주",
+      "market": "KOSDAQ",
+      "limit_date": "20261028",
+      "signal_date": "20261102",
+      "limit_close": 757,
+      "signal_close": 877,
+      "gap_pct": 15.85,
+      "volume": 507486
+    }
+  ]
 }
