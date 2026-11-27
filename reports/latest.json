@@ -1,5 +1,5 @@
 {
-  "as_of": "20261124",
+  "as_of": "20261125",
   "strategy": "상한가 이후 음봉-양봉-음봉",
   "criteria": [
     "상한가 당일 종가가 전일 종가 대비 29.5% 이상 상승",
@@ -8,15 +8,26 @@
   ],
   "matches": [
     {
-      "ticker": "207760",
-      "name": "미스터블루",
+      "ticker": "451250",
+      "name": "삐아",
       "market": "KOSDAQ",
-      "limit_date": "20261119",
-      "signal_date": "20261124",
-      "limit_close": 1851,
-      "signal_close": 1909,
-      "gap_pct": 3.13,
-      "volume": 457420
+      "limit_date": "20261120",
+      "signal_date": "20261125",
+      "limit_close": 7810,
+      "signal_close": 8090,
+      "gap_pct": 3.59,
+      "volume": 1828236
+    },
+    {
+      "ticker": "304840",
+      "name": "타임X AI",
+      "market": "KOSDAQ",
+      "limit_date": "20261120",
+      "signal_date": "20261125",
+      "limit_close": 1586,
+      "signal_close": 1600,
+      "gap_pct": 0.88,
+      "volume": 637769
     }
   ]
 }
